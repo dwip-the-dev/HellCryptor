@@ -65,9 +65,9 @@ Yeah only when you dont put 1234 as the paraphrase but still if you use 1234 its
 
 ```bash
 # Encrypt a file
-python make_encrypted.py /path/to/file.txt
+python encryptor.py /path/to/file.txt
 
-# Decrypt (run the generated key_restore.py)
+# Decrypt (run the generated key_restore.py)(Note if running in linux run with sudo command and in windows with adminstrator because the file gets locked once encrypted)
 python key_restore.py
 ```
 
