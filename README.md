@@ -7,7 +7,7 @@
 ## ⚠️ WARNING
 
 * **Only test on copies.** One wrong passphrase attempt = permanent destruction of the encrypted file.
-* This tool is designed for **extreme security scenarios** — think CIA-grade transport of ultra-sensitive files.
+* This tool is designed for **extreme security scenarios** — think like CIA+FBI+CID+RAW+ISIS+all forces known to universe combined uses less security than this.
 * **Do NOT forget your passphrases.** Forgetting them = total irrecoverable data loss.
 
 ---
@@ -37,7 +37,7 @@
 
 ## Security Analysis
 
-### Passphrase Strength
+ Passphrase Strength
 
 * Recommended: **50+ random characters per passphrase**.
 * Total keyspace:
@@ -47,7 +47,7 @@ Single passphrase: 95^50 possibilities
 Two passphrases XORed: 95^50 × 95^50 = 95^100 ≈ 1.86 × 10^197 possibilities
 ```
 
-### Brute-force Time Estimates
+ Brute-force Time Estimates
 
 | Attacker      | Hardware                           | Time to brute-force    | Notes            |
 | ------------- | ---------------------------------- | ---------------------- | ---------------- |
@@ -57,6 +57,7 @@ Two passphrases XORed: 95^50 × 95^50 = 95^100 ≈ 1.86 × 10^197 possibilities
 | God-tier PC   | 100× Threadripper + 200× Blackwell | \~2 × 10^178 years     | Still impossible |
 
 💀 Even the **most insane hardware imaginable** can’t brute-force your files if passphrases are strong.
+Yeah only when you dont put 1234 as the paraphrase but still if you use 1234 its still impossible because one wrong paraphrase and everythings cooked.
 
 ---
 
