@@ -26,7 +26,7 @@
 
 1. User provides **two DIFFERENT passphrases**.
 2. Each passphrase is processed with **Argon2id** (time=4, memory=128MB, parallelism=10) → produces 32-byte keys.
-3. Keys are **XORed** → final encryption key (512-bit effective).
+3. Keys are **XORed** → final encryption key (256-bit effective).
 4. File is encrypted using **ChaCha20-Poly1305**.
 5. Metadata is encrypted separately.
 6. Original file is overwritten with random garbage.
